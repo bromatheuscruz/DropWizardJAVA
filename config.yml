@@ -1,0 +1,4 @@
+logging:
+  level: INFO
+  loggers:
+    cruz.io.learning.dropwizard: DEBUG

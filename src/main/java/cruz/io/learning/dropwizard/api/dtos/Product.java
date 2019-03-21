@@ -4,7 +4,7 @@ import java.io.Serializable;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-public class ProductDTO implements Serializable{
+public class Product implements Serializable{
 	
 	/**
 	 * 
@@ -20,11 +20,11 @@ public class ProductDTO implements Serializable{
 	@JsonProperty
 	private String description;
 	
-	public ProductDTO() {
+	public Product() {
 		
 	}
 
-	public ProductDTO(Long id, String name, String description) {
+	public Product(Long id, String name, String description) {
 		this.id = id;
 		this.name = name;
 		this.description = description;
